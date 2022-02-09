@@ -12,6 +12,9 @@ class Message {
     @Column()
     message: string;
 
+    @Column()
+    feedback: string;
+
     @CreateDateColumn()
     created_at: Date;
 
